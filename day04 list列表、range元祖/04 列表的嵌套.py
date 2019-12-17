@@ -6,6 +6,7 @@ l1 = [1, 2, 'tadfsafsdafibfdsgfdgfdgfdai', [1, 'alex', 3,]]
 # print(l1)
 
 # 2，给小列表[1,'alex',3,]追加一个元素,'老男孩教育'。
+
 # print(l1[-1])
 # l1[-1].append('老男孩教育')
 # print(l1)

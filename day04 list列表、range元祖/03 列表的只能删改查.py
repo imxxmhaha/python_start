@@ -10,7 +10,7 @@
 # 方式三：列表推导式 后面讲
 
 # 增删改查
-l1 = ['太白', '女神', 'xiao','吴老师', '闫龙']
+# l1 = ['太白', '女神', 'xiao','吴老师', '闫龙']
 # 增：
 # append:追加
 # l1.append('xx')
@@ -18,7 +18,7 @@ l1 = ['太白', '女神', 'xiao','吴老师', '闫龙']
 # print(l1)
 
 # 举例：
-# l1 = ['太白', '女神', '吴老师', 'xiao', '闫龙']
+l1 = ['太白', '女神', '吴老师', 'xiao', '闫龙']
 # while 1:
 #     name = input('请输入新员工姓名：(Q或者q退出程序)')
 #     if name.upper() == 'Q': break
@@ -30,7 +30,7 @@ l1 = ['太白', '女神', 'xiao','吴老师', '闫龙']
 # print(l1)
 #extend 迭代着追加
 # l1.extend('abcd')
-# l1.extend(['alex',])
+# l1.extend(['alex'])
 # l1.extend(['alex', 1, 3])
 # print(l1)
 
@@ -70,6 +70,6 @@ l1 = ['太白', '女神', 'xiao','吴老师', '闫龙']
 
 # 查：
 # 索引，切片（步长）
-# for i in l1:
-#     print(i)
+for i,t in enumerate(l1):
+    print(i,t)
 
