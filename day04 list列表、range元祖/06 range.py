@@ -29,3 +29,6 @@ l1 = [1, 2, 3, 'alex', '太白', 2, 3, 4, 66,]
 for i in range(3):
     pass
 print(i)
+
+
+
